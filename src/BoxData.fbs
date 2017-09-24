@@ -1,0 +1,35 @@
+namespace BoxData;
+
+struct Point {
+	x: float;
+	y: float;
+}
+
+table Shape {
+	color: uint;
+	vertices: [Point];
+}
+
+table Body {
+	position: Point;
+	rotation: float;
+	shapes: [Shape];
+	isStatic: bool;
+	id: int;
+}
+
+table Box {
+	position: Point;
+	rotation: float;
+	type: int;
+	id: int;
+	color: uint;
+}
+
+union Any { Body, Box }
+
+table Bodies {
+	boxes: [Any];
+}
+
+root_type Bodies;

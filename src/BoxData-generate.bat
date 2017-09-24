@@ -1,0 +1,1 @@
+call flatc.exe --cpp --gen-object-api BoxData.fbs
