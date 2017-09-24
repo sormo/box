@@ -14,4 +14,4 @@ When body is being added user can rotate it by moving touch up and down. Body is
 #### Additional credits
 - [Bod2D](https://github.com/erincatto/Box2D)
 - [NanoVG](https://github.com/memononen/nanovg)
-- [Flattbuffers](https://github.com/google/flatbuffers) 
+- [Flatbuffers](https://github.com/google/flatbuffers) 
